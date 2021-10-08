@@ -1,0 +1,75 @@
+:root{
+    --fontNavColor:#3FD82D  ;
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html,body{
+    min-height: 100vh;
+    width: 100%;
+}
+
+/*ESTILOS BARRA DE NAVEGACION*/
+header{
+    display: grid;
+    grid-template-columns: 30% 70%;
+}
+header,.logo-title,title{
+    height: 45px;
+}
+.logo-title{
+    display: flex;
+}
+header{
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.title p{
+    padding: 10px 0px 10px 8px;
+    background:linear-gradient(to right, #60D752 ,#34DE20 ,#26661E  );
+    font-size: 40px;
+    font-weight: bold;
+    -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.image i{
+    background:linear-gradient(to right, #A1F526 ,#26661E  );
+    -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 40px;
+  text-align: center;
+  display: block;
+ 
+}
+.nav ul{
+    list-style-type: none;
+}
+ul{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+ul li{
+    display: inline-block;
+    margin-top: 20px;
+}
+ul li a{
+    display:inline-block;
+    text-decoration: none;
+    font-size: 20px;
+    color:#000;
+    border: 1px solid #34DE20;
+    text-align: center;
+    padding: 8px 15px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    color: var(--fontNavColor);
+    border-radius: 8px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+}
