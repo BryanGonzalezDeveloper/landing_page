@@ -1,0 +1,27 @@
+:root{
+    --paragraphColorText:#44983A ;
+    --fontTitleColor:#1D5F15;
+    --fontSizeTitle:24px;
+    --fontSizeSubtitle:16px;
+    --fontSizeNormalText:15px;
+    
+}
+
+.content-title{
+    color: var(--fontTitleColor);
+}
+h1.content-title{
+    font-size: var(--fontSizeTitle);
+    margin-bottom: 15px;
+    text-align: center;
+
+}
+h2.content-title{
+    font-size: var(--fontSizeSubtitle);
+    padding: 10px 0px;
+}
+.content-paragraph{
+    color:var(--paragraphColorText);
+    font-size: var(--fontSizeNormalText);
+    text-align: left;
+}

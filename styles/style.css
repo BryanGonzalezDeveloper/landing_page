@@ -1,5 +1,8 @@
 :root{
     --fontNavColor:#3FD82D  ;
+    --firstGradientColor:#60D752;
+    --SecondGradientColor:#34DE20;
+    --ThirdGradientColor:#26661E ;
 }
 *{
     padding: 0;
@@ -10,6 +13,7 @@ html,body{
     min-height: 100vh;
     width: 100%;
 }
+
 
 /*ESTILOS BARRA DE NAVEGACION*/
 header{
@@ -29,14 +33,15 @@ header{
 
 .title p{
     padding: 10px 0px 10px 8px;
-    background:linear-gradient(to right, #60D752 ,#34DE20 ,#26661E  );
+    background:linear-gradient(to right, var(--firstGradientColor) ,var(--SecondGradientColor) ,var(--ThirdGradientColor) );
     font-size: 40px;
     font-weight: bold;
     -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 .image i{
-    background:linear-gradient(to right, #A1F526 ,#26661E  );
+    background:linear-gradient(to right, #A1F526 ,
+    var(--ThirdGradientColor)  );
     -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   font-size: 40px;
@@ -61,7 +66,7 @@ ul li a{
     text-decoration: none;
     font-size: 20px;
     color:#000;
-    border: 1px solid #34DE20;
+    border: 1px solid var(--SecondGradientColor);
     text-align: center;
     padding: 8px 15px;
     font-family: 'Poppins', sans-serif;
